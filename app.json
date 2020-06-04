@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CountdownTimer",
-    "slug": "CountdownTimer",
+    "slug": "countdown-timer",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kanokgan.countdowntimer",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.kanokgan.countdowntimer",
+      "versionCode": 1
     }
   }
 }
